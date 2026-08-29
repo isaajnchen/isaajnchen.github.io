@@ -8,7 +8,7 @@ skills:
   - Hand and Power Tools 
   - Onshape (CAD)
 
-main-image: /spinnerella2.jpg
+main-image: /spinnerella.jpg
 ---
 
 # This is another demo
