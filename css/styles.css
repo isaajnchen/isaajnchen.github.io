@@ -277,7 +277,6 @@ nav .mobile-nav {
     gap: 25px;
     width: 100%;
     margin: 0 auto;
-    /* FIX: Changed from stretch to start. Allows card columns to assume their independent organic heights */
     align-items: start; 
 }
 
@@ -291,7 +290,6 @@ nav .mobile-nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* FIX: Changed from 100% to auto so container scales precisely to actual item payload */
     height: auto; 
     box-sizing: border-box;
     padding: 15px;
@@ -304,7 +302,6 @@ nav .mobile-nav {
     overflow: hidden;
 }
 
-/* FIX: Removed rigid aspect-ratio limits to allow natural calculation profiles */
 .project-card img {
     width: 100%; 
     height: auto;
@@ -382,31 +379,67 @@ nav .mobile-nav {
 .skills-section .skill-categories {
     list-style: none;
     padding-left: 0;
-}
-
-.skills-section .skill-categories .skills-card span {
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .skills-section .skill-categories .skills-card {
     margin-bottom: 15px;
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.05);    
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
                 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: var(--background-color);
 }
 
 .skills-section .skill-categories .category-label {
     font-size: 20px;
-    display: grid; 
     font-weight: 600;
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 12px;
 }
 
+/* FIX: Forces lists to drop markers and wrap items horizontally as layout badges */
+.skills-section .skill-categories .skills-card ul {
+    list-style-type: none !important;
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+}
+
+/* FIX: Styles default text bullet points into clean, rounded canvas pills */
+.skills-section .skill-categories .skills-card li {
+    list-style: none !important;
+    display: inline-block !important;
+    padding: 4px 12px !important;
+    border-radius: 12px !important;
+    font-size: 0.95em !important;
+    background-color: var(--light-background-color) !important;
+    color: var(--link-color) !important;
+    white-space: nowrap !important;
+    border: 1px solid rgba(0, 0, 0, 0.03) !important;
+}
+
+/* Retains original template standalone mapping selector definitions */
 .skills-section .skill-categories .skills-list {
     display: flex; 
     flex-wrap: wrap;
     padding-left: 0; 
     margin-right: 10px;
     gap: 8px;
+}
+
+.skills-section .skill {
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.95em;
+    background-color: var(--light-background-color);
+    color: var(--link-color);
+    white-space: nowrap;
 }
