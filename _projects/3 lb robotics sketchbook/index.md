@@ -8,7 +8,7 @@ skills:
   - Technical communication
   
 
-main-image: /beetlweight-sketchbook-cover.jpg
+main-image: /beetleweight-sketchbook-cover.jpg
 ---
 
 ## Section Title Placeholder
