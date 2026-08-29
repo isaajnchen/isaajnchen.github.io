@@ -2,7 +2,7 @@
 layout: wrapper
 ---
 
-<div class="post-view" style="max-width: 800px; margin: 0 auto;">
+<div class="post-view">
     <!-- Image Box -->
     <div class="summary" style="width: 100%; height: auto; display: block; clear: both;">
         {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
@@ -10,44 +10,36 @@ layout: wrapper
         <img src="{{ image_path }}" alt="{{ page.title }} image" style="width: 100%; height: auto; max-height: 60vh; object-fit: contain; display: block; margin: 0 auto 20px auto;">
     </div> 
         
-    <!-- Text Content Area (Base container for consistent alignment) -->
-    <div class="text-container" style="display: block; width: 100%; clear: both; padding-left: 20px; box-sizing: border-box;">
-        
-        <!-- Header Section -->
-        <div class="title-header" style="display: block; width: 100%; margin-bottom: 20px;">
-            <div style="display: block; width: 100%;">
-                <h1 style="display: inline-block; margin-bottom: 0;">{{ page.title }}</h1>
-            </div>
+    <!-- Text Content Area -->
+    <div class="title-header" style="display: block; width: 100%; clear: both; padding-left: 40px; box-sizing: border-box;">
+        <div style="display: block; width: 100%; clear: both;">
+            <h1 style="display: inline-block; margin-bottom: 0;">{{ page.title }}</h1>
+        </div>
+  
+        {% if page.subtitle %}
+        <div style="display: block; width: 100%; clear: both; margin-top: 4px;">
+            <p class="project-subtitle" style="margin: 0; font-size: 1rem; color: #555;">
+                {{ page.subtitle }}
+            </p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="project-description" style="display: block; width: 100%; clear: both; margin-top: 20px; padding-left: 40px; box-sizing: border-box;">
+        <h2>Project Overview</h2>
+        <p>{{ page.description }}</p>
+    </div>
+
+    <div class="skills-card" style="display: block; width: 100%; clear: both; margin-top: 20px; padding-left: 40px; box-sizing: border-box;">
+        <h2>Skills Used</h2> 
+        <div class="skills-list">
+            {% for skill in page.skills %}
+            <span class="skill">{{ skill }}</span>    
+            {% endfor %}
+        </div>
+    </div>
       
-            {% if page.subtitle %}
-            <div style="display: block; width: 100%; margin-top: 4px;">
-                <p class="project-subtitle" style="margin: 0; font-size: 1rem; color: #555;">
-                    {{ page.subtitle }}
-                </p>
-            </div>
-            {% endif %}
-        </div>
-
-        <!-- Project Overview -->
-        <div class="project-description" style="display: block; width: 100%; margin-top: 20px;">
-            <h2 style="margin-bottom: 8px;">Project Overview</h2>
-            <p style="margin-top: 0;">{{ page.description }}</p>
-        </div>
-
-        <!-- Skills Card -->
-        <div class="skills-card" style="display: block; width: 100%; margin-top: 20px; margin-bottom: 30px;">
-            <h2 style="margin-bottom: 8px;">Skills Used</h2> 
-            <div class="skills-list">
-                {% for skill in page.skills %}
-                <span class="skill" style="display: inline-block; margin-right: 10px;">{{ skill }}</span>    
-                {% endfor %}
-            </div>
-        </div>
-        
-    </div><!-- End of left-indented text container -->
-
-    <!-- Main Markdown Content (Kept separate so inner elements indent properly) -->
-    <div class="content" style="display: block; width: 100%; clear: both;">
+    <div class="content" style="display: block; width: 100%; clear: both; margin-top: 20px;">
         {{ content }}
     </div>
 </div>
