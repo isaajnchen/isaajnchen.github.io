@@ -8,7 +8,7 @@ skills:
   - Hand and Power Tools 
   - Onshape (CAD)
 
-main-image: ./soldering.png
+main-image: /soldering.png
 ---
 
 # This is another demo
