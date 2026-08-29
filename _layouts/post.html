@@ -29,15 +29,6 @@ layout: wrapper
         <h2>Project Overview</h2>
         <p>{{ page.description }}</p>
     </div>
-
-    <div class="skills-card" style="display: block; width: 100%; clear: both; margin-top: 20px; padding-left: 40px; box-sizing: border-box;">
-        <h2>Skills Used</h2> 
-        <div class="skills-list">
-            {% for skill in page.skills %}
-            <span class="skill">{{ skill }}</span>    
-            {% endfor %}
-        </div>
-    </div>
       
     <div class="content" style="display: block; width: 100%; clear: both; margin-top: 20px;">
         {{ content }}
