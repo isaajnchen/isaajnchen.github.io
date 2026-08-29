@@ -277,7 +277,8 @@ nav .mobile-nav {
     gap: 25px;
     width: 100%;
     margin: 0 auto;
-    align-items: stretch;
+    /* FIX: Changed from stretch to start. Allows card columns to assume their independent organic heights */
+    align-items: start; 
 }
 
 .project-grid-section .project-link {
@@ -290,7 +291,8 @@ nav .mobile-nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    /* FIX: Changed from 100% to auto so container scales precisely to actual item payload */
+    height: auto; 
     box-sizing: border-box;
     padding: 15px;
     background: var(--background-color);
@@ -302,12 +304,10 @@ nav .mobile-nav {
     overflow: hidden;
 }
 
-/* FIX: Changed aspect-ratio and object-fit to display images organically */
+/* FIX: Removed rigid aspect-ratio limits to allow natural calculation profiles */
 .project-card img {
     width: 100%; 
-    height: 220px;
-    object-fit: contain;
-    background-color: var(--light-background-color);
+    height: auto;
     display: block;
     border-radius: 6px;
     margin-bottom: 10px; 
