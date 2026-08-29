@@ -320,10 +320,6 @@ nav .mobile-nav {
     margin-bottom: 10px;
 }
 
-.project-card .project-title:hover {
-    text-decoration: underline;
-}
-
 .project-card .project-skills {
     display: flex;
     flex-wrap: wrap;
@@ -367,10 +363,11 @@ nav .mobile-nav {
 }
 
 
+
 /* SECTION 3: SKILLS */
 .skills-section {
     margin-bottom: 100px;
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 
@@ -379,12 +376,15 @@ nav .mobile-nav {
     margin-bottom: 15px;
 }
 
+
+
+
 .skills-section .skill-categories {
     list-style: none;
     padding-left: 0;
-}
+   }
 
-.skills-section .skill-categories .skills-card span {
+.skills-section .skill-categories .skills-card  span{
     margin-bottom: 10px;
 }
 
@@ -394,8 +394,8 @@ nav .mobile-nav {
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.05);    
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
-                0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
+                  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+   }
 
 .skills-section .skill-categories .category-label {
     font-size: 20px;
@@ -409,7 +409,8 @@ nav .mobile-nav {
     padding-left: 0; 
     margin-right: 10px;
     gap: 8px;
-}
+    }
+
 .skills-section .skill-categories .skill {
     display:flex;
     justify-content: center;
@@ -931,3 +932,4 @@ footer p {
 
       
 }
+
