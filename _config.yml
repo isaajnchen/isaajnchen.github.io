@@ -21,7 +21,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/soldering.png
+profile_image: ./assets/images/profile-image/avatar.jpg
 
 
 # Link your resume
