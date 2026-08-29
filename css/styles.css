@@ -402,8 +402,8 @@ nav .mobile-nav {
     margin-bottom: 12px;
 }
 
-/* FIX: Intercepts raw markdown list blocks and styles them horizontally */
-.skills-section .skills-card ul {
+/* FIX: Catch ALL lists within skills-section to strip bullets and align inline */
+.skills-section ul {
     list-style: none !important;
     list-style-type: none !important;
     padding-left: 0 !important;
@@ -413,12 +413,12 @@ nav .mobile-nav {
     gap: 8px !important;
 }
 
-/* FIX: Intercepts standard bullet list items and changes them into pill tags */
-.skills-section .skills-card li {
+/* FIX: Catch ALL list items within skills-section and style as pill badges */
+.skills-section li {
     list-style: none !important;
     list-style-type: none !important;
     display: inline-block !important;
-    padding: 6px 14px !important;
+    padding: 4px 12px !important;
     border-radius: 12px !important;
     font-size: 0.95em !important;
     background-color: var(--light-background-color) !important;
@@ -427,7 +427,6 @@ nav .mobile-nav {
     border: 1px solid rgba(0, 0, 0, 0.03) !important;
 }
 
-/* Base definitions fallback support */
 .skills-section .skill-categories .skills-list {
     display: flex; 
     flex-wrap: wrap;
@@ -437,7 +436,7 @@ nav .mobile-nav {
 }
 
 .skills-section .skill {
-    padding: 6px 14px;
+    padding: 4px 12px;
     border-radius: 12px;
     font-size: 0.95em;
     background-color: var(--light-background-color);
