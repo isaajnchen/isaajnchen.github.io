@@ -1,15 +1,14 @@
 ---
 layout: post
-title: 1 lb Combat Robot - _Spinerella_
-description: Conducted detailed teardown analysis of Sonos Era speaker, documenting internal components, driver configuration, and PCB design. Created technical documentation with photos and assembly insights for engineering reference. 
+title: 1 lb Combat Robot - *Spinerella*
+description: Working in a team of 4, I helped design and build a 1 pound combat robot. My greatest contributions were in electrical assembly, repairs, and safety supervision. 
 skills: 
-  - drumel
-  - microprobing
-  - Electronics Teardown
-  - PCB analysis
-  - audio system design
+  - Soldering
+  - Multimeter
+  - Hand and Power Tools 
+  - Onshape (CAD)
 
-main-image: /sonos.png
+main-image: assets/images/profile-image/soldering.png
 ---
 
 # This is another demo
