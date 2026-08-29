@@ -377,7 +377,7 @@ nav .mobile-nav {
 }
 
 .skills-section .skill-categories {
-    list-style: none;
+    list-style: none !important;
     padding-left: 0;
     display: flex;
     flex-direction: column;
@@ -402,22 +402,23 @@ nav .mobile-nav {
     margin-bottom: 12px;
 }
 
-/* FIX: Forces lists to drop markers and wrap items horizontally as layout badges */
-.skills-section .skill-categories .skills-card ul {
-    list-style-type: none !important;
+/* FIX: Intercepts raw markdown list blocks and styles them horizontally */
+.skills-section .skills-card ul {
     list-style: none !important;
+    list-style-type: none !important;
     padding-left: 0 !important;
-    margin-left: 0 !important;
+    margin: 0 !important;
     display: flex !important;
     flex-wrap: wrap !important;
     gap: 8px !important;
 }
 
-/* FIX: Styles default text bullet points into clean, rounded canvas pills */
-.skills-section .skill-categories .skills-card li {
+/* FIX: Intercepts standard bullet list items and changes them into pill tags */
+.skills-section .skills-card li {
     list-style: none !important;
+    list-style-type: none !important;
     display: inline-block !important;
-    padding: 4px 12px !important;
+    padding: 6px 14px !important;
     border-radius: 12px !important;
     font-size: 0.95em !important;
     background-color: var(--light-background-color) !important;
@@ -426,7 +427,7 @@ nav .mobile-nav {
     border: 1px solid rgba(0, 0, 0, 0.03) !important;
 }
 
-/* Retains original template standalone mapping selector definitions */
+/* Base definitions fallback support */
 .skills-section .skill-categories .skills-list {
     display: flex; 
     flex-wrap: wrap;
@@ -436,7 +437,7 @@ nav .mobile-nav {
 }
 
 .skills-section .skill {
-    padding: 4px 12px;
+    padding: 6px 14px;
     border-radius: 12px;
     font-size: 0.95em;
     background-color: var(--light-background-color);
