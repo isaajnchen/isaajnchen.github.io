@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 lb Combat Robotics Sketchbook
+title: 3 lb Combat Robot Sketchbook
 subtitle: August 2026 - Present
 description:  This is a compilation of my sketch ideas for the 3 pound weight class, which represents the majority of returning club members.
 skills: 
