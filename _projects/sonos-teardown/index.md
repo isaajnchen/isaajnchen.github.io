@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sonos Teardown
+title: 1 lb Combat Robot - _Spinerella_
 description: Conducted detailed teardown analysis of Sonos Era speaker, documenting internal components, driver configuration, and PCB design. Created technical documentation with photos and assembly insights for engineering reference. 
 skills: 
   - drumel
