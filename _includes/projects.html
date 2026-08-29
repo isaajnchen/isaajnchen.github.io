@@ -8,7 +8,7 @@
         <div class="project-card">
             {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
             {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
-            <img src="{{ image_path }}" alt="{{ item.title }} image">
+            <img src="{{ image_path }}" alt="{{ item.title }} image" style="width: 100%; height: auto; display: block; object-fit: contain;">
             <h3 class="project-title">{{ item.title }}</h3>
             <div class="project-skills">
                 {% for skill in item.skills %}
