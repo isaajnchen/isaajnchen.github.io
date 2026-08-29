@@ -47,17 +47,17 @@ external-links:    # input only your own url slug. The icons with missing entrie
 skills:
   - category: Labratory Techniques
     tools:
-  - UV-Vis Spectrophotometry
-  - Sol-Gel Synthesis
-  - Antisolvent Precipitation
-  - Buffer Solution Preparation
-  - Dilutions
-  - Ball Mill
-  - Micropipetting
-  - Syringe Filtration
-  - Vacuum Filtration
-  - Centrifugation
-  - pH Meter
+      - UV-Vis Spectrophotometry
+      - Sol-Gel Synthesis
+      - Antisolvent Precipitation
+      - Buffer Solution Preparation
+      - Dilutions
+      - Ball Mill
+      - Micropipetting
+      - Syringe Filtration
+      - Vacuum Filtration
+      - Centrifugation
+      - pH Meter
 
   - category: Mechanical Design and Assembly 
     tools:
