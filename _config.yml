@@ -61,10 +61,10 @@ skills:
 
   - category: Mechanical Design and Assembly 
     tools:
-      - Soldering
-      - Multimeter
       - Concept Sketching
       - Onshape (CAD)
+      - Soldering
+      - Multimeter
   - category: Computational Tools and Data Visualization
     tools:
       - Python
