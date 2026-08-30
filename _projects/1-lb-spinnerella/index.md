@@ -12,7 +12,7 @@ skills:
 main-image: /spinnerella.jpg
 ---
 Brief Design Review
--
+---
 {% include image-gallery.html images="spinnerella2.jpg" height="350" %}
 
 Sloped Armor
@@ -22,7 +22,7 @@ Sloped Armor
 Vertical Spinner
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
----
+
 Electronics Assembly
 ---
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
@@ -38,4 +38,3 @@ Repairs Under Pressure
 ---
 After suffering catastrophic damage, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
 <!--{% include image-gallery.html images="repair-1.jpg, repair-2.jpg" height="300" %} -->
----
