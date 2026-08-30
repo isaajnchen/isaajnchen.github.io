@@ -12,7 +12,7 @@ skills:
 main-image: /spinnerella.jpg
 ---
 Brief Design Review
---
+-
 {% include image-gallery.html images="spinnerella2.jpg" height="350" %}
 
 Sloped Armor
