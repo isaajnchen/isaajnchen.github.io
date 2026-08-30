@@ -490,7 +490,7 @@ footer {
     padding: 0;
     font-size: 12px;
     text-align: center;
-    min-height: 150px; 
+    min-height: 200px; 
     flex-shrink: 0;
     background-color: var(--light-background-color);
     width: 100vw;
