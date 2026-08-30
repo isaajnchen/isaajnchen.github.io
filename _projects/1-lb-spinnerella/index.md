@@ -9,7 +9,7 @@ skills:
   - Hand and Power Tools 
   - Onshape (CAD)
 
-main-image: /spinnerella.jpg
+main-image: /spinnerella2.jpg
 ---
 
 Brief Design Review
@@ -22,7 +22,7 @@ Brief Design Review
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella2.jpg" height="350" %}
+{% include image-gallery.html images="spinnerella.jpg" height="350" %}
 </div>
 
 
