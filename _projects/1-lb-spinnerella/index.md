@@ -10,7 +10,7 @@ skills:
   - Onshape (CAD)
 
 main-image: /spinnerella.jpg
-
+---
 <div style="margin-top: 10px; margin-bottom: 10px;">
 {% include image-gallery.html images="spinnerella.jpg" height="350" %}
 </div>
