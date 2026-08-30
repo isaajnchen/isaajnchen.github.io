@@ -22,7 +22,7 @@ Brief Design Review
  - Separate screw-on pieces for ease of replacement
 
 <b>Vertical Spinner</b>
- - Uppercutting rotation flips **opponents**
+ - Uppercutting rotation flips opponents
  - 100% infill for maximum density
 
 <div style="margin-top: 10px; margin-bottom: 10px;">
