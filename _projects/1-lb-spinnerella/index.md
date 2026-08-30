@@ -11,10 +11,6 @@ skills:
 
 main-image: /spinnerella.jpg
 ---
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella2.jpg" height="350" %}
-</div>
-
 Brief Design Review
 ---
 <b>Sloped Armor</b>
@@ -24,22 +20,26 @@ Brief Design Review
 <b>Vertical Spinner</b>
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
-
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="soldering.png" height="300" %}
+{% include image-gallery.html images="spinnerella2.jpg" height="350" %}
 </div>
-
+---
 Electronics Assembly
 ---
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
 The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
-
-{% include image-gallery.html images="competition-safety.jpg" height="350" %}
 <div style="margin-top: 10px; margin-bottom: 10px;">
-Safety at Competition
+{% include image-gallery.html images="soldering.png" height="300" %}
 </div>
+
+
+Safety at Competition
 ---
 I operated the weapon lock and hex key power switch and coordinated with the driver to prevent unwanted inputs to the weapon — a potential 10,000 RPM finger remover.
+
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="competition-safety.jpg" height="350" %}
+</div>
 
 <div style="margin-top: 10px; margin-bottom: 10px;">
 {% include image-gallery.html images="repair-1.jpg, repair-2.jpg" height="300" %}
