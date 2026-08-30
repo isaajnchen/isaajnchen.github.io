@@ -483,7 +483,7 @@ footer {
     text-align: center;
     min-height: 150px; 
     flex-shrink: 0;
-    background-color: white;
+    background-color: var(--light-background-color);
     width: 100vw;
     position: relative;
     left: 50%;
