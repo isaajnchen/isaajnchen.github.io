@@ -2,7 +2,7 @@
 layout: post
 title: 3 lb Combat Robot Sketchbook
 subtitle: August 2026 - Present
-description:  This is a compilation of my sketch ideas for the 3 pound weight class, also known as Beetleweight. Unlike 1 pound PLAntweight robots, Beetlweights have no restriction on materials, allowing for greater destruction and design freedom.
+description:  This is a compilation of my sketch ideas for the 3 pound weight class, also known as Beetleweight. Unlike 1 pound PLAntweight robots, Beetlweights have no restriction on materials, allowing for greater destruction and creative freedom.
 skills: 
   - Concept sketching
   - Technical communication
