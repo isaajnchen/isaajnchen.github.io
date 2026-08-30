@@ -23,7 +23,7 @@ Brief Design Review
 <div style="margin-top: 10px; margin-bottom: 10px;">
 {% include image-gallery.html images="spinnerella2.jpg" height="350" %}
 </div>
----
+
 Electronics Assembly
 ---
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
@@ -41,9 +41,11 @@ I operated the weapon lock and hex key power switch and coordinated with the dri
 {% include image-gallery.html images="competition-safety.jpg" height="350" %}
 </div>
 
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="repair-1.jpg, repair-2.jpg" height="300" %}
-</div>d
+
 Repairs Under Pressure
 ---
 After suffering catastrophic damage, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
+
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="repair-1.jpg, repair-2.jpg" height="300" %}
+</div>d
