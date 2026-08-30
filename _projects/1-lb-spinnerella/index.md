@@ -21,7 +21,7 @@ Sloped Armor
 Vertical Spinner
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
-
+---
 Electronics Assembly
 ---
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
