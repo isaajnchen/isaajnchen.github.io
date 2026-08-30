@@ -9,8 +9,11 @@ skills:
   - Hand and Power Tools 
   - Onshape (CAD)
 
-main-image: /spinnerella2.jpg
----
+main-image: /spinnerella.jpg
+
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="spinnerella.jpg" height="350" %}
+</div>
 
 Brief Design Review
 ---
@@ -21,17 +24,18 @@ Brief Design Review
 <b>Vertical Spinner</b>
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella.jpg" height="350" %}
-</div>
 
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="soldering.png" height="300" %}
+</div>
 
 Electronics Assembly
 ---
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
 The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
+
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="soldering.png" height="300" %}
+{% include image-gallery.html images="competition-safety.jpg" height="350" %}
 </div>
 
 
@@ -39,15 +43,13 @@ Safety at Competition
 ---
 I operated the weapon lock and hex key power switch and coordinated with the driver to prevent unwanted inputs to the weapon — a potential 10,000 RPM finger remover.
 
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="competition-safety.jpg" height="350" %}
-</div>
 
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="repair-1.jpg, repair-2.jpg" height="300" %}
+</div>d
 
 Repairs Under Pressure
 ---
 After suffering catastrophic damage, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
 
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="repair-1.jpg, repair-2.jpg" height="300" %}
-</div>d
+
