@@ -21,18 +21,18 @@ Sloped Armor
 Vertical Spinner
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
----
+
 Electronics Assembly
 ---
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
 {% include image-gallery.html images="soldering.png" height="300" %}
 The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
----
+
 Safety at Competition
 ---
 I operated the weapon lock and hex key power switch and coordinated with the driver to prevent unwanted inputs to the weapon — a potential 10,000 RPM finger remover.
 <--! {% include image-gallery.html images="competition-safety.jpg" height="350" %} -->
----
+
 Repairs Under Pressure
 ---
 After suffering catastrophic damage, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
