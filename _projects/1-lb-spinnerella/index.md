@@ -16,6 +16,7 @@ Brief Design Review
 Sloped Armor
  - Inspired by real-world sloped armor that deflects hits and increases effective thickness
  - Separate screw-on pieces for ease of replacement
+---
 Vertical Spinner
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
