@@ -16,11 +16,11 @@ Working in a team of 4, I helped design and build a 1 pound combat robot, where 
 Brief Design Review
 {% include image-gallery.html images="spinnerella.jpg, spinnerella2.jpg" height="350" %}
 Sloped Armor
-Inspired by real-world sloped armor that deflects hits and increases effective thickness
-Separate screw-on pieces for ease of replacement
+ - Inspired by real-world sloped armor that deflects hits and increases effective thickness
+ - Separate screw-on pieces for ease of replacement
 Vertical Spinner
-Uppercutting rotation flips opponents
-100% infill for maximum density
+ - Uppercutting rotation flips opponents
+ - 100% infill for maximum density
 ---
 Electronics Assembly
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
