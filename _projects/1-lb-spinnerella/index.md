@@ -27,10 +27,10 @@ Vertical Spinner
 
 Electronics Assembly
 ---
-After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
 <div style="margin-top: 10px; margin-bottom: 10px;">
 {% include image-gallery.html images="soldering.png" height="300" %}
 </div>
+After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
 The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
 
 Safety at Competition
