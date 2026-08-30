@@ -17,12 +17,12 @@ main-image: /spinnerella.jpg
 
 Brief Design Review
 ---
-Sloped Armor
+<b>Sloped Armor</b>
  - Inspired by real-world sloped armor that deflects hits and increases effective thickness
  - Separate screw-on pieces for ease of replacement
 
-Vertical Spinner
- - Uppercutting rotation flips opponents
+<b>Vertical Spinner</b>
+ - Uppercutting rotation flips **opponents**
  - 100% infill for maximum density
 
 Electronics Assembly
