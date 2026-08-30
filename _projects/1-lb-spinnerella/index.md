@@ -25,6 +25,7 @@ Brief Design Review
 {% include image-gallery.html images="spinnerella2.jpg" height="350" %}
 </div>
 
+---
 Electronics Assembly
 ---
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
