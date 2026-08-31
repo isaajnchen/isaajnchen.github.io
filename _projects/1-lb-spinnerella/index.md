@@ -26,7 +26,7 @@ Brief Design Review
  - 100% infill for maximum density
 
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="soldering.png" height="300" %}
+{% include image-gallery.html images="soldering.png" height="500" %}
 </div>
 
 Electronics Assembly
