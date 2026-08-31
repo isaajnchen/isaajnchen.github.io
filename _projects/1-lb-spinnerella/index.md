@@ -17,6 +17,7 @@ main-image: /spinnerella2.jpg
 
 Brief Design Review
 ---
+
 <b>Sloped Armor</b>
  - Inspired by real-world sloped armor that deflects hits and increases effective thickness
  - Separate screw-on pieces for ease of replacement
