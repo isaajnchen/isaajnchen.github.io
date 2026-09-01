@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 1 lb Combat Robot - <i>Spinnerella</i>
+title: 1 lb "PlAntweight" Combat Robot - <i>Spinnerella</i>
 subtitle: February 2026 - May 2026
-description: Working in a team of 4, I helped design and build a 1 pound combat robot, where I contributed to electrical assembly, repairs, and safety supervision. This was my first semester with Berkeley Combat Robotics, as well as my first time building a combat robot.
+description: Working in a team of 4, I helped design and build a 1-pound combat robot, where I contributed to electrical assembly, repairs, and safety supervision. This was my first semester with Berkeley Combat Robotics, as well as my first time building a combat robot.
 skills: 
   - Soldering
   - Multimeter
@@ -12,7 +12,7 @@ skills:
 main-image: /spinnerella2.jpg
 ---
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella.jpg" height="350" %}
+{% include image-gallery.html images="spinnerella.jpg, fight.jpg" height="350" %}
 </div>
 
 Brief Design Review
@@ -24,12 +24,7 @@ Brief Design Review
 
 <b>Vertical Spinner</b>
  - Uppercutting rotation flips opponents
- - 100% infill for maximum density given PLA material restriction
-
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="fight.jpg" height="350" %}
-</div>
-
+ - 100% infill for maximum density given competition's PLA material restriction
 
 
 Electronics Assembly
