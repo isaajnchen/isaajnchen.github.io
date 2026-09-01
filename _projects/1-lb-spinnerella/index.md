@@ -11,12 +11,13 @@ skills:
 
 main-image: /spinnerella2.jpg
 ---
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella.jpg" height="350" %}
-</div>
+
 
 Brief Design Review
 ---
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="spinnerella.jpg" height="350" %}
+</div>
 
 <b>Sloped Armor</b>
  - Inspired by real-world sloped armor that deflects hits and increases effective thickness
@@ -26,30 +27,33 @@ Brief Design Review
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
 
+
+
+Electronics Assembly
+---
 <div style="margin-top: 30px; margin-bottom: 10px;">
 {% include image-gallery.html images="layout.png, soldering.png, soldering3.png" height="400" %}
 </div>
 
-Electronics Assembly
----
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
 The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
 
 
-<div style="margin-top: 300px; margin-bottom: 10px;">
-{% include image-gallery.html images="damaged.png, repaired.png" height="300" %}
-</div>
+
 
 Repairs Under Pressure
 ---
+<div style="margin-top: 300px; margin-bottom: 10px;">
+{% include image-gallery.html images="damaged.png, repaired.png" height="300" %}
+</div>
 After suffering catastrophic damage, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
 
-<div style="margin-top: 300px; margin-bottom: 10px;"> 
-{% include image-gallery.html images="competition-safety.jpg" height="350" %}
-</div>
 
 Safety at Competition
 ---
+<div style="margin-top: 300px; margin-bottom: 10px;"> 
+{% include image-gallery.html images="competition-safety.jpg" height="350" %}
+</div>
 I operated the weapon lock and hex key power switch and coordinated with the driver to prevent unwanted inputs to the weapon — a potential 10,000 RPM finger remover.
 
 
