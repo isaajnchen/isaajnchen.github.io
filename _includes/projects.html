@@ -12,7 +12,7 @@
             <img src="{{ image_path }}" alt="{{ item.title }} image" style="width: 100% !important; height: auto !important; max-height: none !important; display: block !important;">
             <h3 class="project-title">{{ item.title }}</h3>
             <h4 class="project-subtitle">{{ item.subtitle }}</h4>
-            <div class="project-skills">
+            <div class="project-skills" style="margin-top: 10px; margin-bottom: 10px;">
                 {% for skill in item.skills %}
                     <span class="skill">{{ skill }}</span>
                 {% endfor %}
