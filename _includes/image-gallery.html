@@ -1,5 +1,18 @@
-{% assign image_paths = include.images | split: ", " %}
+{% assign image_paths = include.images | split: "," %}
 {% assign gallery_height = include.height | default: "300" %}
+
+<style>
+  .image-gallery {
+    display: flex;
+    gap: 10px; /* Optional: adds nice spacing between the images */
+    width: 100%;
+  }
+  .image-gallery img {
+    height: var(--gallery-height) !important;
+    object-fit: cover; /* Prevents stretching by cropping to match heights */
+    max-width: 100%;
+  }
+</style>
 
 <div class="image-gallery" style="--gallery-height: {{ gallery_height }}px;">
   {% for image_path in image_paths %}
