@@ -2,14 +2,22 @@
 layout: post
 title: Silicates for Controlled Herbicide Release
 subtitle: September 2025 - May 2026
-description: Working under the guidance of my postdoctoral mentor in a corporate-academia collaboration, I helped develop a biocompatible silicate release formulation for a broadleaf herbicide, focusing on crystal pre-treatment, sol-gel synthesis, and release rate characterization.
+description: Working under the guidance of my postdoctoral mentor in a corporate-academia collaboration, I helped develop a biocompatible silicate release formulation for a broadleaf herbicide, focusing on release rate characterization, crystal pre-treatment, and sol-gel synthesis.
 skills: 
   - UV-Vis Spectrophotometry
   - Antisolvent Precipitation
   - Sol-Gel and Encapsulation Syntheses
 main-image: /encapmain.jpeg
 ---
+Release Rate Characterization
+---
+Because release rate characterization spanned multiple days, it consumed most of our laboratory time. When given this as my first assignment, I maximized the efficiency by running two simultaneous release tests staggered just one minute apart, while also filter aliquots and operating the UV-Vis spectrophotometer.
 
+Samples tested included existing commercial formulations, neat herbicide, and our synthesized silicate products. Minimal amounts were used to conserve material, often on the milligram scale.
+
+<div style="margin-top: 10px; margin-bottom: 30px;">
+{% include image-gallery.html images="uvworkstation.png, spectro.png, uvworkstation2.png" height="280" %}
+</div>
 
 Herbicide Pre-Treatment
 ---
@@ -25,11 +33,4 @@ Since the herbicide was hydrophobic, it required dispersion with a surfactant be
 {% include image-gallery.html images="bath.png, filtration.png" height="300" %}
 </div>
 
-Release Rate Characterization
----
-Since release rate characterization is the main method for analyzing the efficacy of a formulation and can span multiple days, it takes up the bulk of laboratory time. To maximize efficiency, I started running 2 simultaneous release tests 1 minute apart, all while syringe filtering aliquots and operating the UV-Vis spectrophotometer.
 
-Samples tested included existing commercial formulations, neat herbicide, and our synthesized silicate products. Minimal amounts were used to conserve material, often on the milligram scale.
-<div style="margin-top: 10px; margin-bottom: 30px;">
-{% include image-gallery.html images="uvworkstation.png, spectro.png" height="280" %}
-</div>
