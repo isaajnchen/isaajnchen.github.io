@@ -26,8 +26,8 @@ Brief Design Review
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
 
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="layout.png, soldering.png, soldering2.png, soldering3.png" height="400" %}
+<div style="margin-top: 30px; margin-bottom: 10px;">
+{% include image-gallery.html images="layout.png, soldering.png, soldering3.png" height="400" %}
 </div>
 
 Electronics Assembly
@@ -35,17 +35,18 @@ Electronics Assembly
 After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
 The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
 
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="competition-safety.jpg" height="350" %}
-</div>
 
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="damaged.png, repaired.jpg" height="300" %}
+<div style="margin-top: 300px; margin-bottom: 10px;">
+{% include image-gallery.html images="damaged.png, repaired.png" height="300" %}
 </div>d
 
 Repairs Under Pressure
 ---
 After suffering catastrophic damage, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
+
+<div style="margin-top: 300px; margin-bottom: 10px;"> 
+{% include image-gallery.html images="competition-safety.jpg" height="350" %}
+</div>
 
 Safety at Competition
 ---
