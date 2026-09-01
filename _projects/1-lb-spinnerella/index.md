@@ -38,7 +38,7 @@ The most challenging components to solder were the XT30 connectors and small PCB
 
 <div style="margin-top: 300px; margin-bottom: 10px;">
 {% include image-gallery.html images="damaged.png, repaired.png" height="300" %}
-</div>d
+</div>
 
 Repairs Under Pressure
 ---
