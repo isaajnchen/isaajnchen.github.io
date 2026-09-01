@@ -23,7 +23,7 @@ Herbicide Pre-Treatment
 ---
 In order to achieve uniform dissolution behavior and silicate coating, it was necessary to homogenize the herbicide crystals before encapsulation. We found that reprecipitation involving the addition of dissolved herbicide in an antisolvent resulted in the greatest monodispersity and lowest risk of contamination.
 <div style="margin-top: 10px; margin-bottom: 30px;">
-{% include image-gallery.html images="antisolvent.png, homogenized.png" height="500" %}
+{% include image-gallery.html images="antisolvent.png, homogenized.png" height="auto" %}
 </div>
 
 Sol-Gel and Recovery
