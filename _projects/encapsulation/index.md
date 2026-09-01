@@ -23,12 +23,13 @@ Herbicide Pre-Treatment
 ---
 In order to achieve uniform dissolution behavior and silicate coating, it was necessary to homogenize the herbicide crystals before encapsulation. We found that reprecipitation involving the addition of dissolved herbicide in an antisolvent resulted in the greatest monodispersity and lowest risk of contamination.
 <div style="margin-top: 10px; margin-bottom: 30px;">
-{% include image-gallery.html images="antisolvent.png" height="300" %}
+{% include image-gallery.html images="antisolvent.png" height="400" %}
 </div>
 
 Sol-Gel and Recovery
 ---
-Since the herbicide was hydrophobic, it required dispersion with a surfactant before going through a multi-day sol-gel process. During this process, an isothermal heat bath promoted silica network formation around the herbicide. Afterwards, the product was washed and vacuum filtered to remove surfactant and impurities. Finally, it was oven-dried overnight to remove any residual moisture.
+The synthesis scheme involved an acid-catalyzed sol-gel process starting from an organosilane precursor. Since the herbicide was hydrophobic, it first required dispersion in the aqueous acid with a surfactant. Then, the mixture was immersed in an isothermal heat bath for a multi-day gelation and aging step, promoting silica network formation around the herbicide. Afterward, the product was washed and vacuum filtered to remove surfactant molecules and impurities. Finally, it was oven-dried overnight to remove any residual moisture.
+
 <div style="margin-top: 10px; margin-bottom: 30px;">
 {% include image-gallery.html images="bath.png, filtration.png" height="300" %}
 </div>
