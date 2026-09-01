@@ -11,6 +11,7 @@
             <!-- Inline styling enforces variable organic scaling, clearing legacy cache blocks -->
             <img src="{{ image_path }}" alt="{{ item.title }} image" style="width: 100% !important; height: auto !important; max-height: none !important; display: block !important;">
             <h3 class="project-title">{{ item.title }}</h3>
+            <h4 class="project-subtitle">{{ item.subtitle }}</h4>
             <div class="project-skills">
                 {% for skill in item.skills %}
                     <span class="skill">{{ skill }}</span>
