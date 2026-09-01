@@ -24,7 +24,7 @@ Brief Design Review
 
 <b>Vertical Spinner</b>
  - Uppercutting rotation flips opponents
- - 100% infill for maximum density
+ - 100% infill for maximum density given PLA material restriction
 
 
 
