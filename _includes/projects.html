@@ -3,8 +3,7 @@
     <h2>Projects</h2>
 
     <div class="grid-container">
-        {% assign sorted_projects = site.projects | sort: "title"}
-        {% for item in sorted_projects %}
+        {% for item in site.projects %}
     <a href="{{ item.url }}" class="project-link">
         <div class="project-card">
             {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
