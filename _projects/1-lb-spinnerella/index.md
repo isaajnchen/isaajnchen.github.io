@@ -12,7 +12,7 @@ skills:
 main-image: /spinnerella2.jpg
 ---
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella.jpg, fight.jpg" height="350" %}
+{% include image-gallery.html images="spinnerella.jpg, fight.jpg" height="300" %}
 </div>
 
 Brief Design Review
