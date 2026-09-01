@@ -16,7 +16,7 @@ Because release rate characterization spanned multiple days, it consumed most of
 Samples tested included existing commercial formulations, neat herbicide, and our synthesized silicate products. Minimal amounts were used to conserve material, often on the milligram scale.
 
 <div style="margin-top: 10px; margin-bottom: 30px;">
-{% include image-gallery.html images="uvworkstation.png, spectro.png, uvworkstation2.png" height="280" %}
+{% include image-gallery.html images="uvworkstation.png, spectro.png, uvworkstation2.png" height="250" %}
 </div>
 
 Herbicide Pre-Treatment
