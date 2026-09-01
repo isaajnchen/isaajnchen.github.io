@@ -26,6 +26,9 @@ Brief Design Review
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density given PLA material restriction
 
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="fight.jpg" height="350" %}
+</div>
 
 
 
@@ -58,7 +61,7 @@ In the days leading up to the competition, I made sure to drill the power and tr
 At competition, my role was to operate the weapon lock and hex key power switch, as well as coordinate with the driver to prevent unwanted inputs to the weapon — a potential 10,000 RPM finger remover. Our dedication to safety and efficiency gave us a few crucial extra minutes to conduct repairs between matches.   
 
 <div style="margin-top: 10px; margin-bottom: 30px;"> 
-{% include image-gallery.html images="competition-safety.jpg" height="350" %}
+{% include image-gallery.html images="competition-safety.jpg" height="200" %}
 </div>
 
 
