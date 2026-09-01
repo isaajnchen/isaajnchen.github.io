@@ -26,7 +26,7 @@ In order to achieve uniform dissolution behavior and silicate coating, it was ne
 
 Sol-Gel and Recovery
 ---
-Since the herbicide is hydrophobic, it required a surfactant before going through a multi-day sol-gel process, during which silica networks form around the herbicide. Afterwards, the product is washed and vacuum filtered to remove surfactant or impurities, and finally oven-dried overnight.
+Since the herbicide is hydrophobic, it required a surfactant before going through a multi-day sol-gel process, during which silica networks form around the herbicide. Afterwards, the product was washed and vacuum filtered to remove surfactant and impurities. Finally, it was oven-dried overnight to remove any residual moisture.
 <div style="margin-top: 10px; margin-bottom: 30px;">
 {% include image-gallery.html images="silicone-oil-bath.jpg, vacuum-filtration.jpg" height="280" %}
 </div>
