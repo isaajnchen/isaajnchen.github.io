@@ -13,7 +13,7 @@ main-image: /spinnerella2.jpg
 ---
 
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella.jpg, fight.jpg" height="250" %}
+{% include image-gallery.html images="spinnerella.jpg, fight.jpg" height="290" %}
 </div>
 
 Brief Design Review
