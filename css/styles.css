@@ -277,8 +277,7 @@ nav .mobile-nav {
     gap: 25px;
     width: 100%;
     margin: 0 auto;
-    /* FIX: Changed from stretch to start. Allows card columns to assume their independent organic heights */
-    align-items: start; 
+    align-items: stretch; 
 }
 
 .project-grid-section .project-link {
