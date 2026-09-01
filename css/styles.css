@@ -277,7 +277,7 @@ nav .mobile-nav {
     gap: 25px;
     width: 100%;
     margin: 0 auto;
-    align-items: stretch; 
+    align-items: start; 
 }
 
 .project-grid-section .project-link {
@@ -361,7 +361,13 @@ nav .mobile-nav {
     text-decoration: underline;
 }
 
-
+/* --- Custom Project Variants --- */
+/* Reorder elements ONLY inside cards with the .image-bottom class */
+.project-card.image-bottom .project-title { order: 1; }
+.project-card.image-bottom .project-skills { order: 2; }
+.project-card.image-bottom img { order: 3; margin-top: 10px; margin-bottom: 10px; }
+.project-card.image-bottom .project-description { order: 4; }
+.project-card.image-bottom .read-more { order: 5; }
 
 /* SECTION 3: SKILLS */
 .skills-section {
