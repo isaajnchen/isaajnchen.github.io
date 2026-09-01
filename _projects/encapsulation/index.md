@@ -11,7 +11,7 @@ skills:
   - Vacuum Filtration
   - Release Rate Analysis
   - Buffer Solution Preparation
-main-image: /encapmain.png
+main-image: /encapmain.jpeg
 ---
 
 
