@@ -11,10 +11,10 @@ skills:
   - Vacuum Filtration
   - Release Rate Analysis
   - Buffer Solution Preparation
-main-image: /silicate-herbicide.jpg
+main-image: /encapmain.png
 ---
 <div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="silicate-herbicide.jpg, workstation.jpg" height="280" %}
+{% include image-gallery.html images="encapmain.png" height="280" %}
 </div>
 
 
@@ -38,5 +38,5 @@ Since release rate characterization is the main method for analyzing the efficac
 
 Samples tested included existing commercial formulations, neat herbicide, and our synthesized silicate products. Minimal amounts were used to conserve material, often on the milligram scale.
 <div style="margin-top: 10px; margin-bottom: 30px;">
-{% include image-gallery.html images="uvworkstation.png, calibration.png" height="280" %}
+{% include image-gallery.html images="uvworkstation.png, spectro.png" height="280" %}
 </div>
