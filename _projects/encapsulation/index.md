@@ -7,10 +7,6 @@ skills:
   - UV-Vis Spectrophotometry
   - Antisolvent Precipitation
   - Sol-Gel and Encapsulation Syntheses
-  - Standard Preparation
-  - Vacuum Filtration
-  - Release Rate Analysis
-  - Buffer Solution Preparation
 main-image: /encapmain.jpg
 ---
 
