@@ -38,7 +38,7 @@ The most challenging components to solder were the XT30 connectors and small PCB
 My work contributed to successful tests of both drive and weapon systems, ensuring our robot was fully reliable and combat-ready well before competition day.
 
 <div style="margin-top: 10px; margin-bottom: 30px;">
-{% include image-gallery.html images="layout.png, soldering.png, soldering3.png" height="400" %}
+{% include image-gallery.html images="layout.png, soldering.png, soldering3.png, completed.png" height="400" %}
 </div>
 
 
