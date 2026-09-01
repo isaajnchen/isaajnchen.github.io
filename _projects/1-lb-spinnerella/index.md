@@ -12,9 +12,11 @@ skills:
 main-image: /spinnerella2.jpg
 ---
 
-
 Brief Design Review
 ---
+<div style="margin-top: 10px; margin-bottom: 30px;">
+{% include image-gallery.html images="spinnerella.jpg" height="350" %}
+</div>
 
 <b>Sloped Armor</b>
  - Inspired by real-world sloped armor that deflects hits and increases effective thickness
@@ -24,9 +26,6 @@ Brief Design Review
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
 
-<div style="margin-top: 10px; margin-bottom: 30px;">
-{% include image-gallery.html images="spinnerella.jpg" height="350" %}
-</div>
 
 
 
