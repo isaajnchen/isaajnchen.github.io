@@ -4,24 +4,22 @@ title: Silicate-Herbicide Encapsulation
 subtitle: September 2025 - May 2026
 description: Working under the guidance of my postdoctoral mentor in a corporate-academia collaboration, I helped develop a biocompatible silicate release formulation for a broadleaf herbicide, focusing on crystal pre-treatment, sol-gel synthesis, and release rate characterization.
 skills: 
-  - Antisolvent Recrystallization
+  - Antisolvent Precipitation
   - Sol-Gel Synthesis
   - Vacuum Filtration
-  - UV-Vis Spectroscopy
+  - UV-Vis Spectrophotometry
   - Release Rate Analysis
+  - Buffer Solution Preparation
 main-image: /silicate-herbicide.jpg
 ---
 <div style="margin-top: 10px; margin-bottom: 10px;">
 {% include image-gallery.html images="silicate-herbicide.jpg, workstation.jpg" height="280" %}
 </div>
 
-Overview
----
-This corporate-academia collaboration aimed to create a release formulation for a herbicide using biocompatible silicates. Under the guidance of my postdoctoral mentor, I made the following contributions.
 
 Herbicide Pre-Treatment
 ---
-In order to achieve uniform dissolution behavior and silicate coating, it was necessary to homogenize the herbicide crystals. We found that reprecipitation involving dissolved herbicide in an antisolvent resulted in the greatest monodispersity and lowest risk of contamination.
+In order to achieve uniform dissolution behavior and silicate coating, it was necessary to homogenize the herbicide crystals before encapsulation. We found that reprecipitation involving the addition of dissolved herbicide in an antisolvent resulted in the greatest monodispersity and lowest risk of contamination.
 <div style="margin-top: 10px; margin-bottom: 30px;">
 {% include image-gallery.html images="crystal-suspension.jpg" height="280" %}
 </div>
