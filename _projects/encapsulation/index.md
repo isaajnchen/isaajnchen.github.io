@@ -13,9 +13,6 @@ skills:
   - Buffer Solution Preparation
 main-image: /encapmain.png
 ---
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="encapmain.png" height="280" %}
-</div>
 
 
 Herbicide Pre-Treatment
