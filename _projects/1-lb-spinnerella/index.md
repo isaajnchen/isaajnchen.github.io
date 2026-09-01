@@ -15,9 +15,6 @@ main-image: /spinnerella2.jpg
 
 Brief Design Review
 ---
-<div style="margin-top: 10px; margin-bottom: 10px;">
-{% include image-gallery.html images="spinnerella.jpg" height="350" %}
-</div>
 
 <b>Sloped Armor</b>
  - Inspired by real-world sloped armor that deflects hits and increases effective thickness
@@ -27,17 +24,23 @@ Brief Design Review
  - Uppercutting rotation flips opponents
  - 100% infill for maximum density
 
+<div style="margin-top: 10px; margin-bottom: 10px;">
+{% include image-gallery.html images="spinnerella.jpg" height="350" %}
+</div>
+
 
 
 Electronics Assembly
 ---
+
+After hours of splicing wires, soldering, and multimeter-validating connections, I assembled the entire electronics harness in a space of under 5 cubic inches.
+The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
+
+My work contributed to successful tests of both drive and weapon systems, ensuring our robot was fully reliable and combat-ready well before competition day.
+
 <div style="margin-top: 30px; margin-bottom: 10px;">
 {% include image-gallery.html images="layout.png, soldering.png, soldering3.png" height="400" %}
 </div>
-
-After hours of splicing wires, desoldering second-hand parts, and avoiding flux fumes, I assembled the entire wiring harness and test-drove our robot before competition.
-The most challenging components to solder were the XT30 connectors and small PCB terminals, which were prone to bridging.
-
 
 
 
