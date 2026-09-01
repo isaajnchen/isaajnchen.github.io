@@ -45,7 +45,7 @@ My work contributed to successful tests of both drive and weapon systems, ensuri
 
 Repairs Under Pressure
 ---
-After suffering catastrophic damage, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
+After suffering catastrophic damage to our armor and frame, we reassembled the entire drivetrain in a backup frame with spare armor plates and an experimental weapon designed by one of my teammates.
 <div style="margin-top: 10px; margin-bottom: 30px;">
 {% include image-gallery.html images="damaged.png, repaired.png" height="300" %}
 </div>
