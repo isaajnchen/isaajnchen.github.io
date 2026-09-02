@@ -358,7 +358,8 @@ nav .mobile-nav {
     text-overflow: ellipsis;
     word-break: break-word;
     line-height: 1.5; 
-    max-height: calc(1.5em * 4); 
+    max-height: calc(1.5em * 4);
+    display: none
 }
 
 .project-card .read-more {
