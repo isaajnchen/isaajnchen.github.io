@@ -277,21 +277,23 @@ nav .mobile-nav {
     gap: 25px;
     width: 100%;
     margin: 0 auto;
-    align-items: start; 
+    /* CHANGE: Removed align-items: start; to let items stretch to maximum row height */
+    align-items: stretch; 
 }
 
 .project-grid-section .project-link {
     text-decoration: none;
     color: inherit;
-    display: inline-block;
+    /* CHANGE: Changed inline-block to flex so it stretches to fill the grid height */
+    display: flex;
 }
 
 .project-grid-section .grid-container .project-link .project-card {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* FIX: Changed from 100% to auto so container scales precisely to actual item payload */
-    height: auto; 
+    /* CHANGE: Set height to 100% so it expands to fill the entire height of the .project-link wrapper */
+    height: 100%; 
     box-sizing: border-box;
     padding: 15px;
     background: var(--background-color);
@@ -303,38 +305,7 @@ nav .mobile-nav {
     overflow: hidden;
 }
 
-/* FIX: Removed rigid aspect-ratio limits to allow natural calculation profiles */
-.project-card img {
-    width: 100%; 
-    height: auto;
-    display: block;
-    border-radius: 6px;
-    margin-bottom: 10px; 
-}
-
-.project-card .project-title {
-    font-size: 1.4em;
-    text-decoration: none;
-    transition: color 0.3s ease; 
-    margin-bottom: 10px;
-}
-
-.project-card .project-skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    margin-bottom: 5px;
-}
-
-.project-card .project-skills .skill {
-    padding: 0 6px;
-    border-radius: 10px;
-    font-size: 0.9em;
-    background-color: var(--light-background-color);
-    color: var(--link-color);
-    white-space: nowrap; 
-}
-
+/* ADD NEW RULE: Pushes the description and read-more elements to the bottom */
 .project-card .project-description {
     display: -webkit-box;
     -webkit-line-clamp: 4; 
@@ -345,6 +316,8 @@ nav .mobile-nav {
     word-break: break-word;
     line-height: 1.5; 
     max-height: calc(1.5em * 4); 
+    /* NEW: Takes up remaining empty vertical space inside the card flex container */
+    flex-grow: 1; 
 }
 
 .project-card .read-more {
@@ -353,7 +326,9 @@ nav .mobile-nav {
     color: var(--highlight-color);
     cursor: pointer;
     font-size: 0.9em;
-    margin-top: 5px;
+    /* NEW: Ensures it sits perfectly at the bottom boundary */
+    margin-top: auto; 
+    padding-top: 10px;
     text-align: start;
 }
 
