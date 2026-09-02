@@ -2,7 +2,7 @@
 layout: post
 title: Silicates for Controlled Herbicide Release
 subtitle: September 2025 - May 2026
-description: Working under the guidance of my postdoctoral mentor in a corporate-academia collaboration, I helped develop a biocompatible silicate release formulation for a broadleaf herbicide, focusing on release rate characterization, crystal pre-treatment, and sol-gel synthesis.
+description: Working under the guidance of my postdoctoral mentor in a corporate-academia collaboration, I helped develop a biocompatible silicate release formulation for a broadleaf herbicide. In this role, I contributed to release rate characterization, crystal pre-treatment, and sol-gel synthesis.
 skills: 
   - UV-Vis Spectrophotometry
   - Antisolvent Precipitation
