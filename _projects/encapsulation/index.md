@@ -7,7 +7,7 @@ skills:
   - UV-Vis Spectrophotometry
   - Antisolvent Precipitation
   - Sol-Gel and Encapsulation Syntheses
-main-image: /encapmain.jpeg
+main-image: /encap3.jpeg
 ---
 Release Rate Characterization
 ---
