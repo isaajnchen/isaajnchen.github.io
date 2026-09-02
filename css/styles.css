@@ -314,9 +314,7 @@ nav .mobile-nav {
 .project-card img {
     width: 100%; 
     max-width: 100%; 
-    aspect-ratio: 3/1;
-    object-fit: contain;
-    background-color: var(--light-background-color);
+    height: auto;
     display: block;
     border-radius: 6px;
     margin-bottom: 10px; 
